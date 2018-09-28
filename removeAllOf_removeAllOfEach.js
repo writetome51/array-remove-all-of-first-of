@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var arrayHas_1 = require("../../no_modify/return_boolean/arrayHas");
+var arrayHas_1 = require("@writetome51/array-analysis-basic/arrayHas");
 var removeFirstOf_removeFirstOfEach_1 = require("./removeFirstOf_removeFirstOfEach");
 //  value cannot be an object.
 function removeAllOf(value, array) {

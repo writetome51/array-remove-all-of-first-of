@@ -1,4 +1,4 @@
-import { arrayHas } from '../../no_modify/return_boolean/arrayHas';
+import { arrayHas } from '@writetome51/array-analysis-basic/arrayHas';
 import { removeFirstOf } from './removeFirstOf_removeFirstOfEach';
 
 

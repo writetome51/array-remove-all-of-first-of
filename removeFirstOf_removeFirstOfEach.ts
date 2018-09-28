@@ -1,5 +1,5 @@
-import { getFirstIndexOf } from '@writetome51/array-get-indexes/indexes/getFirstIndexOf';
-import { removeItem } from './array-modifiers-that-return-void-basic/removeItem';
+import { getFirstIndexOf } from '@writetome51/array-get-indexes-basic/getFirstIndexOf';
+import { removeItem } from '@writetome51/array-removers-basic/removeItem';
 
 // value cannot be object.
 

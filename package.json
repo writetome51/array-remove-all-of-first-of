@@ -6,16 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [
     "array",
     "manipulation"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-
   "devDependencies": {},
   "dependencies": {
-
+    "@writetome51/array-analysis-basic": "latest",
+    "@writetome51/array-get-indexes-basic": "latest",
+    "@writetome51/array-removers-basic": "latest"
   }
 }

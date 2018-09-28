@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getFirstIndexOf_1 = require("@writetome51/array-get-indexes/indexes/getFirstIndexOf");
-var removeItem_1 = require("./array-modifiers-that-return-void-basic/removeItem");
+var getFirstIndexOf_1 = require("@writetome51/array-get-indexes-basic/getFirstIndexOf");
+var removeItem_1 = require("@writetome51/array-removers-basic/removeItem");
 // value cannot be object.
 function removeFirstOf(value, array) {
     var index = getFirstIndexOf_1.getFirstIndexOf(value, array);
