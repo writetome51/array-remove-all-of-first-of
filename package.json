@@ -1,8 +1,8 @@
 {
   "name": "@writetome51/array-remove-all-of-first-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "array-handling functions that search for instances of a value and remove them.",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,8 +14,8 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-analysis-basic": "latest",
+    "@writetome51/array-has": "latest",
     "@writetome51/array-get-indexes-basic": "latest",
-    "@writetome51/array-removers-basic": "latest"
+    "@writetome51/array-remove-item": "latest"
   }
 }
