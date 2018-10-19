@@ -6,16 +6,32 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-remove-all-of-first-of.git"
+  },
   "keywords": [
     "array",
-    "manipulation"
+    "manipulation",
+    "remove",
+    "all",
+    "instances",
+    "first",
+    "instance"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/writetome51/array-remove-all-of-first-of/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-remove-all-of-first-of#readme",
+  "devDependencies": {
+    "@writetome51/arrays-match": "latest"
+  },
   "dependencies": {
     "@writetome51/array-has": "latest",
     "@writetome51/array-get-indexes-basic": "latest",
-    "@writetome51/array-remove-item": "latest"
+    "@writetome51/array-remove-item": "latest",
+    "error-if-not-populated-array": "latest"
   }
 }
