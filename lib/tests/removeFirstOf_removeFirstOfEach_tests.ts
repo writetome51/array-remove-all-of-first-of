@@ -1,5 +1,5 @@
 import { removeFirstOf, removeFirstOfEach } from '../removeFirstOf_removeFirstOfEach';
-import { arraysMatch } from '@writetome51/arrays-match/arraysMatch';
+import { arraysMatch } from '@writetome51/arrays-match';
 
 
 let arr = ['a', 'b', 'c', 1, 2, 3, 10, 20, 30, 'a', 'b', 'c', true, false, ['a', 'b'], 10, 20, 30,

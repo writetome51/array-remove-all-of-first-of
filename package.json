@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-all-of-first-of",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "array-handling functions that search for instances of a value and remove them.",
   "main": "index.js",
   "scripts": {
