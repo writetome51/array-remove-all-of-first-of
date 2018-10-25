@@ -1,4 +1,4 @@
-import { arrayHas } from '@writetome51/array-has/arrayHas';
+import { arrayHas } from '@writetome51/array-has';
 import { removeFirstOf } from './removeFirstOf_removeFirstOfEach';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
