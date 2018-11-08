@@ -1,20 +1,13 @@
-This has 4 functions
+import {removeFirstOf, removeFirstOfEach, removeAllOf, removeAllOfEach}   
+from '@writetome51/array-remove-all-of-first-of';
 
-Removes the first instance of value from the array:
-
-removeFirstOf(value, array);
-
-
-Removes the first instance of each value in values:
-
-removeFirstOfEach(values, array);
+This package has 4 functions.  They all return void.
 
 
-Removes all instances of value from the array:
+removeFirstOf(value, array); // Removes the first instance of value from array
 
-removeAllOf(value, array);
+removeFirstOfEach(values, array); // Removes the first instance of each value
 
+removeAllOf(value, array); // Removes all instances of value from array
 
-Removes all instances of each value in values:
-
-removeAllOfEach(values, array);
+removeAllOfEach(values, array); // Removes all instances of each value
