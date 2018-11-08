@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-all-of-first-of",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "array-handling functions that search for instances of a value and remove them.",
   "main": "index.js",
   "scripts": {
@@ -29,9 +29,9 @@
     "@writetome51/arrays-match": "latest"
   },
   "dependencies": {
-    "@writetome51/array-has": "latest",
-    "@writetome51/array-get-indexes-basic": "latest",
-    "@writetome51/array-remove-item": "latest",
-    "error-if-not-populated-array": "latest"
+    "@writetome51/array-has": "1.0.5",
+    "@writetome51/array-get-indexes-basic": "1.0.6",
+    "@writetome51/array-remove-by-index": "1.0.0",
+    "error-if-not-populated-array": "1.0.0"
   }
 }

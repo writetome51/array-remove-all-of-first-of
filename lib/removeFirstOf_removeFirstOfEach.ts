@@ -1,5 +1,5 @@
 import { getFirstIndexOf } from '@writetome51/array-get-indexes-basic';
-import { removeItem } from '@writetome51/array-remove-item';
+import { removeByIndex } from '@writetome51/array-remove-by-index';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
@@ -7,7 +7,7 @@ import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 export function removeFirstOf(value: any, array): void {
 	let index = getFirstIndexOf(value, array);
-	if (index > -1) removeItem(index, array);
+	if (index > -1) removeByIndex(index, array);
 }
 
 
