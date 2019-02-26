@@ -1,4 +1,4 @@
-import { getFirstIndexOf } from '@writetome51/array-get-indexes-basic';
+import { getFirstIndexOf } from '@writetome51/array-get-indexes';
 import { removeByIndex } from '@writetome51/array-remove-by-index';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
