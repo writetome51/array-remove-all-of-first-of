@@ -1,9 +1,7 @@
 import { arrayHas } from '@writetome51/array-has';
 import { removeFirstOf } from './removeFirstOf_removeFirstOfEach';
-import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
+import { errorIfLengthIsZero } from 'error-if-length-is-zero';
 
-
-//  value cannot be an object.
 
 export function removeAllOf(value: any, array): void {
 	while (arrayHas(value, array)) {
@@ -12,11 +10,9 @@ export function removeAllOf(value: any, array): void {
 }
 
 
-// values cannot contain object.
-
 export function removeAllOfEach(values: any[], array): void {
-	errorIfNotPopulatedArray(values);
-	for (let i = 0; i < values.length; ++i) {
+	errorIfLengthIsZero(values);
+	for (let i = 0, length = values.length; i < length; ++i) {
 		removeAllOf(values[i], array);
 	}
 }

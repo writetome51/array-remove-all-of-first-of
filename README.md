@@ -14,9 +14,6 @@ Removes all instances of `value` from `array`.
 
 Removes all instances of each value in `values` from `array`.
 
-NOTICE:  For all the functions, the parameter `value` cannot be an object, and the  
-parameter `values` cannot contain an object.  'object' does not include arrays.  
-Arrays are OK.
 
 ## Examples
 ```
@@ -46,14 +43,7 @@ removeAllOfEach(['a', 'b', 'c'], arr);
 
 
 ## Loading
-```
-// if using TypeScript:
-  import {removeFirstOf, removeFirstOfEach, removeAllOf, removeAllOfEach} 
+```js
+import {removeFirstOf, removeFirstOfEach, removeAllOf, removeAllOfEach} 
     from '@writetome51/array-remove-all-of-first-of';
-
-// if using ES5 JavaScript:
-var removeFirstOf = require('@writetome51/array-remove-all-of-first-of').removeFirstOf;
-var removeFirstOfEach = require('@writetome51/array-remove-all-of-first-of').removeFirstOfEach;
-var removeAllOf = require('@writetome51/array-remove-all-of-first-of').removeAllOf;
-var removeAllOfEach = require('@writetome51/array-remove-all-of-first-of').removeAllOfEach;
 ```

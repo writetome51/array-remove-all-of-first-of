@@ -1,21 +1,17 @@
-import { getFirstIndexOf } from '@writetome51/array-get-indexes';
+import { getIndexOf } from '@writetome51/array-get-indexes-of';
 import { removeByIndex } from '@writetome51/array-remove-by-index';
-import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
+import { errorIfLengthIsZero } from 'error-if-length-is-zero';
 
-
-// value cannot be object.
 
 export function removeFirstOf(value: any, array): void {
-	let index = getFirstIndexOf(value, array);
+	let index = getIndexOf(value, array);
 	if (index > -1) removeByIndex(index, array);
 }
 
 
-// values cannot contain object.
-
 export function removeFirstOfEach(values: any[], array): void {
-	errorIfNotPopulatedArray(values);
-	for (let i = 0; i < values.length; ++i) {
+	errorIfLengthIsZero(values);
+	for (let i = 0, length = values.length; i < length; ++i) {
 		removeFirstOf(values[i], array);
 	}
 }
