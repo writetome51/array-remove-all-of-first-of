@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-remove-all-of-first-of",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Functions that search for instances of a value in an array and remove them.",
   "type": "module",
   "main": "dist/index.js",
@@ -29,12 +29,11 @@
   },
   "homepage": "https://github.com/writetome51/array-remove-all-of-first-of#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "^2.0.1"
+    "@writetome51/is-match": ">=0.0.1"
   },
   "dependencies": {
-    "@writetome51/array-has": "^2.0.0",
-    "@writetome51/array-get-indexes-of": "^2.0.1",
-    "@writetome51/array-remove-by-index": "^2.0.0",
-    "error-if-length-is-zero": "^1.0.1"
+    "@writetome51/array-has": ">=3.0.0",
+    "@writetome51/array-get-indexes-of": ">=2.0.1",
+    "@writetome51/array-remove-by-index": ">=2.0.0"
   }
 }
