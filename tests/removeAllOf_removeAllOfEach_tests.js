@@ -1,5 +1,6 @@
 import { removeAllOf, removeAllOfEach } from '../privy/removeAllOf_removeAllOfEach.js';
 import { isMatch } from '@writetome51/is-match';
+import {removeFirstOf} from '../privy/removeFirstOf.js';
 
 let arr = ['a', 'b', 'c', 1, 2, 3, 10, 20, 30, 'a', 'b', 'c', true, false, ['a', 'b'], 10, 20, 30,
     'a', 'b', 'c', 1, 2, 3, 10, 20, ['a', 'b'], 30, 'a', 'b', 'c', 10, 20, 30, true, false];
@@ -82,3 +83,32 @@ catch (e) {
 }
 if (errorTriggered) console.log('test 11 passed');
 else console.log('test 11 FAILED');
+
+
+let obj = {name: 'steve'};
+arr = [obj, {name: 'steve'}, obj];
+removeAllOf(obj, arr);
+console.log(arr);
+// [{name: 'steve'}]
+
+// All the functions use identical `===` to find matches, except when the
+// value being search for is an array. Arrays must only have identical
+// content to be a match:
+
+arr = [[1,2], [3,4], [1,2]];
+removeFirstOf([1,2], arr);
+console.log(arr);
+// [ [3,4], [1,2] ]
+
+obj = {name: 'steve'};
+arr = [ [obj], [{name: 'steve'}], [obj] ];
+removeAllOf([obj], arr);
+console.log(arr);
+// arr is now [ [{name: 'steve'}] ]
+
+
+obj = [{name: 'steve'}];
+arr = [ obj, [{name: 'steve'}], obj ];
+removeAllOf(obj, arr);
+console.log(arr);
+// arr is now [ [{name: 'steve'}] ]
